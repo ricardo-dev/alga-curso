@@ -20,5 +20,4 @@ public class AlgamoneyApi2Application {
 	public static <T> T getBean(Class<T> type) {
 		return APPLICATION_CONTEXT.getBean(type);
 	}
-	
 }
